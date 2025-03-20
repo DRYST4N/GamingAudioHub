@@ -1,0 +1,19 @@
+# Archivo robots.txt para gamingaudiohub.com
+# Fecha de creación: 5 de diciembre de 2024
+
+# Permitir que todos los bots accedan al contenido relevante
+User-agent: *
+Allow: /reviews/
+Allow: /blog/
+Allow: /images/
+Allow: /
+
+# Bloquear áreas administrativas y archivos sensibles
+Disallow: /admin/
+Disallow: /scripts/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Especificar la ubicación del Sitemap
+Sitemap: https://gamingaudiohub.com/sitemap.xml
